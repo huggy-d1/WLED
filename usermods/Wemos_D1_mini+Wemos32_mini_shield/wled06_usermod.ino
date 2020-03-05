@@ -1,5 +1,6 @@
 #include <U8x8lib.h> // from https://github.com/olikraus/u8g2/
 #include <DallasTemperature.h> //Dallastemperature sensor
+//-- need to include onewire support --
 #ifdef ARDUINO_ARCH_ESP32 //ESP32 boards
 uint8_t SCL_PIN = 22; 
 uint8_t SDA_PIN = 21; 
