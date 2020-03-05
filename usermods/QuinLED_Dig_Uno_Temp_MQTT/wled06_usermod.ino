@@ -1,6 +1,7 @@
 //Intiating code for QuinLED Dig-Uno temp sensor
 //Uncomment Celsius if that is your prefered temperature scale
 #include <DallasTemperature.h> //Dallastemperature sensor
+//-- need to include onewire support--
 #ifdef ARDUINO_ARCH_ESP32 //ESP32 boards
 OneWire oneWire(18);
 #else //ESP8266 boards
