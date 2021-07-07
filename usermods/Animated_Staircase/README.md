@@ -70,7 +70,7 @@ The staircase settings and sensor states are inside the WLED status element:
         "staircase": {
             "enabled": true,
             "bottom-sensor": false,
-            "tops-ensor": false
+            "top-sensor": false
         },
 }
 ```
